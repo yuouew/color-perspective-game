@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{25A6AD3A-23F8-F646-BA2C-6E960E2C0D91}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MoveOnWayPoints.cs">
+    <Files>
+      <File FileName="Assets/MoveOnWayPoints.cs" Line="42" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="color-perspective-game" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="MoveOnWayPoints.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="975f549a-802e-4199-b70d-38b5160d7433" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

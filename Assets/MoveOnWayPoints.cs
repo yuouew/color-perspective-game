@@ -20,7 +20,7 @@ public class MoveOnWayPoints : MonoBehaviour
         Vector3 destination = waypoints[index].transform.position;
         Vector3 newPos = Vector3.MoveTowards(transform.position, destination, speed * Time.deltaTime);
         transform.position = newPos;
-        transform.forward = -(transform.position - destination).normalized;
+        transform.forward = (transform.position - destination).normalized;
 
         float distance = Vector3.Distance(transform.position, destination);
         if (distance <= 0.05)

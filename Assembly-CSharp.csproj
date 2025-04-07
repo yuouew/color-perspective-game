@@ -59,7 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/ColorSwitch.cs" />
-    <Compile Include="Assets/MoveOnWayPoints.cs" />
+    <Compile Include="Assets/scripts/MoveOnWayPoints.cs" />
     <Compile Include="Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" />
   </ItemGroup>
   <ItemGroup>

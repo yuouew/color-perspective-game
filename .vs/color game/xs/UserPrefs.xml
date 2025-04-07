@@ -1,12 +1,14 @@
 ﻿<Properties StartupConfiguration="{A5D82516-57DB-3710-3E39-048A1933F92B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ColorSwitch.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BlueEnemy.cs">
     <Files>
-      <File FileName="Assets/ColorSwitch.cs" Line="68" Column="1" />
+      <File FileName="Assets/ColorSwitch.cs" Line="32" Column="1" />
+      <File FileName="Assets/BlueEnemy.cs" Line="55" Column="49" />
+      <File FileName="Assets/MovementDetector.cs" Line="11" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7046c85c-23c3-424a-af6d-b5f67f4ef632" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8aa9944f-30e0-4727-aaff-f7a2fb7e2444" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

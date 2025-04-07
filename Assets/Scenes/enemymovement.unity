@@ -975,7 +975,7 @@ GameObject:
   - component: {fileID: 887454207}
   - component: {fileID: 887454206}
   - component: {fileID: 887454205}
-  - component: {fileID: 887454204}
+  - component: {fileID: 887454209}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -983,38 +983,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &887454204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 887454203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d5d66a2b01ff420e95bf35abab87a92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 2002698199}
-  - {fileID: 1405337200}
-  - {fileID: 1004470207}
-  - {fileID: 1690608465}
-  - {fileID: 1458461421}
-  - {fileID: 2956055}
-  - {fileID: 732863859}
-  - {fileID: 323234714}
-  - {fileID: 1987320891}
-  - {fileID: 16087994}
-  - {fileID: 304439015}
-  - {fileID: 1861313683}
-  - {fileID: 1832085647}
-  - {fileID: 2062353916}
-  speed: 2
-  chaseSpeed: 3.5
-  detectRadius: 15
-  player: {fileID: 1349239469}
-  isLoop: 1
 --- !u!136 &887454205
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1103,6 +1071,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &887454209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887454203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d5d66a2b01ff420e95bf35abab87a92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 2002698200}
+  - {fileID: 1405337201}
+  - {fileID: 1004470208}
+  - {fileID: 1690608466}
+  - {fileID: 1458461422}
+  - {fileID: 2956056}
+  - {fileID: 732863860}
+  - {fileID: 323234715}
+  - {fileID: 1987320892}
+  - {fileID: 16087995}
+  - {fileID: 304439016}
+  - {fileID: 1861313684}
+  - {fileID: 1832085648}
+  - {fileID: 2062353917}
+  walkingSpeed: 2
+  isLooping: 1
+  chaseSpeed: 3.5
+  detectRadius: 5
+  maxChaseTime: 5
+  player: {fileID: 1349239469}
 --- !u!1 &910251078
 GameObject:
   m_ObjectHideFlags: 0

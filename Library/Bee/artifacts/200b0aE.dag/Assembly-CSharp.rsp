@@ -351,6 +351,13 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/ColorSwitch.cs"
+"Assets/Mini First Person Controller/Scripts/Components/Crouch.cs"
+"Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs"
+"Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs"
+"Assets/Mini First Person Controller/Scripts/Components/Jump.cs"
+"Assets/Mini First Person Controller/Scripts/Components/Zoom.cs"
+"Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs"
+"Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
 "Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
 "Assets/scripts/MoveOnWayPoints.cs"
 -langversion:9.0

@@ -6,8 +6,17 @@ public class MoveOnWayPoints : MonoBehaviour
 {
     public List<GameObject> waypoints;
     public float speed = 2;
-    int index = 0;
+    public float chaseSpeed = 3.5f;
+    public float detectRadius = 5f;
+    public Transform player;
     public bool isLoop = true;
+
+    private int index = 0;
+    private bool isChasing = false;
+    private float chaseTimer = 0f;
+    private float maxChaseTime = 5f;
+
+    private Vector3 originalPosition;
 
     // Start is called before the first frame update
     void Start()

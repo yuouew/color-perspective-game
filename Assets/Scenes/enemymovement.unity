@@ -345,13 +345,13 @@ GameObject:
   - component: {fileID: 46246998}
   - component: {fileID: 46246997}
   - component: {fileID: 46246996}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &46246996
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -870,13 +870,13 @@ GameObject:
   - component: {fileID: 534652589}
   - component: {fileID: 534652588}
   - component: {fileID: 534652587}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &534652587
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1314,6 +1314,13 @@ MonoBehaviour:
   detectRadius: 5
   maxChaseTime: 5
   player: {fileID: 1349239469}
+  wallObjects:
+  - {fileID: 534652586}
+  - {fileID: 46246995}
+  wallDetectRadius: 5
+  wall:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &910251078
 GameObject:
   m_ObjectHideFlags: 0

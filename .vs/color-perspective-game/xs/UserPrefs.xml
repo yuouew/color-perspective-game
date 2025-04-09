@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{25A6AD3A-23F8-F646-BA2C-6E960E2C0D91}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/MoveOnWayPoints.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/EnemyController.cs">
     <Files>
-      <File FileName="Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" Line="161" Column="1" />
-      <File FileName="Assets/scripts/MoveOnWayPoints.cs" Line="13" Column="14" />
+      <File FileName="Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs" Line="156" Column="24" />
+      <File FileName="Assets/scripts/MoveOnWayPoints.cs" Line="94" Column="55" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,11 +10,11 @@
           <Node name="color-perspective-game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="ModularFirstPersonController" expanded="True">
-                <Node name="FirstPersonController" expanded="True">
-                  <Node name="FirstPersonController.cs" selected="True" />
-                </Node>
+                <Node name="FirstPersonController" expanded="True" />
               </Node>
-              <Node name="scripts" expanded="True" />
+              <Node name="scripts" expanded="True">
+                <Node name="EnemyController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

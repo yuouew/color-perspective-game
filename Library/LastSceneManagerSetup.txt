@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/enemymovement.unity
+- path: Assets/Scenes/lobbyscene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ModularFirstPersonController/DemoScene/Demo.unity
+- path: Assets/Scenes/MapTesting.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
